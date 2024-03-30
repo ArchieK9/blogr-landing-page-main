@@ -1,0 +1,603 @@
+/* Font-family; Ubuntu, Overpass */
+
+body{
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+header {
+    background: url(./images/bg-pattern-intro-desktop.svg), 
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position: center 50%;
+    background-size: 175%;
+    background-repeat: no-repeat;
+    background-position-x: 35%;
+    box-sizing: border-box;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom-left-radius: 5rem;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header button:hover{
+    cursor: pointer;
+}
+
+
+.logo-cont{
+    width: auto;
+    margin-right: 2rem;
+}
+
+.nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+nav{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    max-height: 10rem;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.nav-links{
+    display: flex;
+    width: 30rem;
+    gap: 2.5rem;
+}
+
+.drop{
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    gap: .2rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: .3rem;
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0,0.2);
+}
+
+.display{
+    display: flex;
+}
+
+.Company, .Product, .Connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    width: 7.5rem;
+    position: relative;
+}
+
+.cta{
+    width: 12.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.cta button:hover{
+    background-color: hsl(355, 100%, 74%);
+    color: #fff;
+}
+
+
+
+.rotate{
+    transform: rotate(180deg);
+    transition: .3s ease-in-out;
+}
+
+.drop a{
+    color: black;
+}
+
+
+.intro h1{
+    word-spacing: .7rem;
+    letter-spacing: .15rem;
+}
+
+.intro button{
+    border-style: solid;
+    border-radius: 2rem;
+    width: 7rem;
+    height: 2.5rem;
+    font-weight: 700;
+}
+
+.cta2{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+hr, .mobile, .menu{
+    display: none;
+}
+
+.cta2 button:first-child{
+    border: none;
+    color: hsl(356, 100%, 66%);
+    transition: .3s ease;
+}
+
+.cta2 button:first-child:hover{
+    background-color: hsl(355, 100%, 74%);
+    color: #fff;
+    border-color: #fff;
+}
+
+.cta2 button:last-child{
+    background-color:hsl(356, 100%, 66%);
+    border-width: .1rem;
+    border-color: #fff;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.cta2 button:last-child:hover{
+    background-color: #fff;
+    color: hsl(356, 100%, 66%);
+    border: none;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    box-sizing: border-box;
+    color:  hsl(207, 13%, 34%);
+}
+
+main h2{
+    position: relative;
+    top: 5rem;
+}
+
+main h2, h3{
+    color: hsl(208, 49%, 24%);
+}
+
+.content{
+    display: flex;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.info-one{
+    padding-right: 7.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 6rem;
+    word-spacing: .3rem;
+}
+
+.info-one, .editor{
+    width: 50%;
+    height: 30rem;
+    margin: 0;
+}
+
+.editor{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.editor img{
+    width: auto;
+    position: relative;
+    left: 17.5rem;
+}
+
+section{
+    box-sizing: border-box;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(237, 17%, 21%);
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-position: -12.5rem -29rem;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 20rem;
+    margin: 7.5rem 0;
+    border-radius: 0rem 5rem 0rem 5rem;
+    color: #fff;
+    word-spacing: .2rem;
+    letter-spacing: 0.05rem;
+}
+
+.features{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 0;
+}
+
+.illustration, .info-three{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.info-three{
+    padding-right: 9rem;
+    word-spacing: .3rem;
+}
+
+.illustration img{
+    width: 110%;
+    position: absolute;
+    right: 8rem;
+}
+
+footer{
+    display: flex;
+    background-color:  hsl(240, 10%, 16%);
+    box-sizing: border-box;
+    padding: 5rem 0;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 100%;
+    border-top-right-radius: 5rem;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: .5rem;
+}
+
+footer div:first-child{
+    gap: 0;
+    align-items: center;
+}
+
+footer img{
+    position: relative;
+    top: 1rem;
+    width: 40%;
+}
+
+@media(max-width: 768px){
+
+    header a{
+        color: #000;
+    }
+
+    .drop{
+        position: relative;
+        margin: 0;
+        top: .5rem;
+        background-color:  hsl(240, 2%, 79%);
+        width: 10rem;
+    }
+
+    .cta{
+        margin: 0;
+    }
+
+    .cta button{
+        background-color: hsl(356, 100%, 66%);
+        color: #fff;
+    }
+
+    hr{
+        display: block;
+        margin: 0;
+        width: 90%;
+        border-color:  hsl(240, 2%, 79%);
+        border-style: solid;
+    }
+
+    .nav{
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .close{
+        display: none;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .intro{
+        margin-top: 7.5rem;
+    }
+
+    .nav-links{
+        width: auto;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    nav{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        right: 30%;
+        background-color: #fff;
+        gap: 1rem;
+        width: 15rem;
+        border-radius: .5rem;
+        max-height: 25rem;
+        padding: .5rem 0;
+        box-sizing: border-box;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    main{
+        padding: 2rem;
+        margin-top: 0;
+    }
+
+    main h2, h3{
+        top: 0;
+        font-weight: 700;
+    }
+
+    .info-one{
+        padding-right: 0;
+        left: 0;
+        word-spacing: 0;
+    }
+
+    .info-one, .editor{
+        width: auto;
+        height: auto;
+    }
+
+    .editor img{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    section{
+        height: 30rem;
+        margin: 10rem 0 2rem;
+        justify-content: flex-end;
+        padding: 2rem;
+        letter-spacing: 0;
+    }
+
+    .phones, .info-two{
+        width: auto;
+        height: auto;
+    }
+
+    .phones{
+        position: relative;
+    }
+
+    .phones img{
+        width: 100%;
+        position: relative;
+        top: 15%;
+        left: 0%;
+    }
+
+    
+    .features div {
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .illustration img{
+        position: relative;
+        left: 0;
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    main, .content, section, .features{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .features{
+        margin: 0;
+        padding: 2rem;
+        box-sizing: border-box;
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        height: 80%;
+        flex-direction: column-reverse;
+    }
+
+    .Company,.Product,.Connect{
+        gap: 0rem;
+    }
+}
+
+
+@media(max-width:425px){
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    header{
+        background: url(./images/bg-pattern-intro-mobile.svg), 
+        linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+        background-size: 220%;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+        padding: 2.5rem 1.5rem;
+    }
+
+    header a{
+        color:  hsl(237, 23%, 32%);
+        font-weight: 600;
+    }
+
+    header a:hover{
+        color:  hsl(240, 12%, 72%);
+    }
+
+    .drop a{
+        color: hsl(237, 23%, 32%);
+    }
+
+    nav{
+        width: 100%;
+        left: 0%;
+        margin-top: 3rem;
+        padding: 2rem 1rem;
+        height: auto;
+        /* max-height: 25rem; */
+        box-shadow: 0px 15px 20px -5px rgba(0, 0, 0,0.2);
+    }
+
+    .nav-links{
+        width: 100%;
+        align-items: center;
+    }
+
+    .Company, .Product, .Connect {
+        width: 100%;
+        text-align: center;
+    }
+
+    .drop{
+        width: 100%;
+        background-color: hsl(240, 2%, 79%);
+    }
+
+    .cta{
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .phones img{
+        top: -15%;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer img{
+        top: -1rem;
+    }
+
+    footer h5{
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+
+    footer div{
+        justify-content: center;
+        width: auto;
+    }
+
+    .cont{
+        padding: 0 1.25rem;
+    }
+
+    .cont h1{
+        word-spacing: 0;
+        letter-spacing: 0;
+    }
+
+    .cont p{
+        padding: 0 0.5rem;
+    }
+}
