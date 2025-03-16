@@ -1,6 +1,6 @@
-# Frontend Mentor - Sunnyside agency landing page solution
+# Frontend Mentor - Blogr landing page solution
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ArchieK9/blogr-landing-page-main)
-- Live Site URL: [Add live site URL here](https://archiek9.github.io/blogr-landing-page-main/)
+- Solution URL: [Blogr-landing-page-main](https://github.com/ArchieK9/blogr-landing-page-main)
+- Live Site URL: [Blogr-landing-page-main](https://archiek9.github.io/blogr-landing-page-main/)
 
 ## My process
 
@@ -40,11 +40,6 @@ Users should be able to:
 - Mobile-first workflow
 - JS
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 - Frontend Mentor - [@ArchieK9](https://www.frontendmentor.io/profile/ArchieK9)
 - Twitter - [@ArchieJK9](https://www.twitter.com/ArchieJK9)
